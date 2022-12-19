@@ -7,7 +7,8 @@ For a recent project of mine, I was looking for a simple way to listen to keyboa
 ## Features
 
 -   [x] Simple pattern for defining key combinations. For example `'control+meta+/'`.
--   [ ] Isolated contexts (PR welcome)
+-   [ ] Isolated contexts (PR welcome).
+-   [ ] Non-browser support (PR welcome).
 
 ## usage
 
