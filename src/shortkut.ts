@@ -1,7 +1,7 @@
 import { areSetsEqual } from './utils'
 import { parseShortcutPattern } from './helpers'
 
-const listenToShortcut = (shortcutPattern: string, callback: Function) => {
+const shorkut = (shortcutPattern: string, callback: Function) => {
 	// parse shortcut pattern
 	const parsedShortcutPattern = parseShortcutPattern(shortcutPattern)
 	// key sets
@@ -26,4 +26,4 @@ const listenToShortcut = (shortcutPattern: string, callback: Function) => {
 	})
 }
 
-export default listenToShortcut
+export default shorkut

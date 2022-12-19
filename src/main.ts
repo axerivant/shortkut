@@ -1,10 +1,10 @@
-import listenToShortcut from './shortkut'
+import shortkut from './shortkut'
 
 const MyLib = () => {
 	console.log('my-lib')
 }
 
-listenToShortcut('control+meta+/', () => {
+shortkut('control+meta+/', () => {
 	alert('PRESSED')
 })
 
